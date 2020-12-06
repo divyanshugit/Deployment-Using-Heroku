@@ -37,7 +37,7 @@ def rcmd(m):
     except:
         data, similarity = create_similarity()
     if m not in data['movie_title'].unique():
-        return('Sorry! The movie you requested is not in our database. Please check the spelling or try with some other movies')
+        return('Sorry! The movie which you are looking for is not available in our database. Please check the spelling or try with some other movies')
     else:
         i = data.loc[data['movie_title']==m].index[0]
         lst = list(enumerate(similarity[i]))
