@@ -4,4 +4,4 @@ Unknown Stuffs
 ---am
 - First projet was Movie Recommender
 
-- Second will be Hapiness Predictor
+- Second will be Hapiness Predictor(As of now, This project is on hold) 
